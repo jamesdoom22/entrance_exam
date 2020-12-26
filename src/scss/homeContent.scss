@@ -1,0 +1,155 @@
+$whiteFont : white;
+$grayFont : rgb(48, 44, 44);
+
+.homeContent{
+    margin: auto;
+    width: 60%;
+    height: 90vh;
+    padding: 10vh 5vh 0vh 5vh;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.arrow{
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    height: 5vh;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.leftContent{
+    width: 50%;
+    height: 100%;
+    font-size: large;
+    display: inline-block;
+    text-align: left;
+    padding-top: 15%;
+}
+
+.rightContent{
+    width: 50%;
+    height: 100%;
+    font-size: x-large;
+    display: inline-block;
+    padding-top: 5vh;
+}
+
+.leftContent ul {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 5%;
+}
+
+.leftContent ul li {
+    padding: 10px 0px 10px 0px;
+    font-size: small;
+}
+
+.leftContent ul li img {
+    height: 2.5vh;
+    padding-right: 10px;
+}
+
+.homeForm{
+    width: 75%;
+    height: 75%;
+    float: right;
+    background-color: white;
+    color: $grayFont;
+    font-size: 15px;
+    text-align: center;
+}
+
+.formHeader{
+    border-color: rgb(26, 101, 163);
+    border-width: 10px;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    height: 15%;
+}
+
+.formBody{
+    height: 80%;
+}
+
+.inputContainer{
+    position: relative;
+    padding-top: 2vh;
+    height: 100%;
+}
+
+.inputContainer img{
+    position: absolute;
+    height: 3vh;
+    top: 3vh;
+    padding-left: 1vw;
+}
+
+.inputContainer input{
+    padding-left: 40px;
+    height: 4vh;
+    width: 75%;
+}
+
+.inputContainer button {
+    height: 5;
+    width: 90%;
+    background-color: rgb(26, 101, 163);
+    color:$whiteFont;
+    height: 5vh;
+}
+
+.centerText{
+    margin: auto;
+    width: 100%;
+}
+.formText{
+    color: $grayFont;
+    display: inline-block;
+    font-size: small;
+    cursor: pointer;
+    padding-top: 1vh;
+    width: 50%;
+}
+
+.separator{
+    margin: auto;
+    width: 90%;
+    height: 1.5vh; 
+    border-bottom: 1px solid gray; 
+    text-align: center;
+}
+
+.separator1{
+    font-size: small;
+    background-color: white;
+    padding: 0 0.5vw;
+    color: $grayFont;
+}
+
+.logInWith{
+    padding-top: 2vh;
+}
+
+.logInWith .img{
+    height: 3vh;
+    position: absolute;
+    padding-left: 2vw;
+    padding-top: 0.5vh;
+    cursor: pointer;
+}
+
+.logInWith .signInWith{
+    background-color: white;
+    color: black;
+    width: 60%;
+    text-align: right;
+    padding-right: 20px;
+    cursor: pointer;
+    height: 4vh;
+}

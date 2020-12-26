@@ -1,0 +1,31 @@
+.mainBody{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.mainBody2{
+    margin-top: auto;
+    height: 10px;
+    width: 10px;
+    background-color: wheat;
+}
+
+
+
+.icon{
+    background: url(./images/google.svg); 
+}
+
+.btn {
+    text-align: center;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: DodgerBlue;
+    background-image: url(./images/google.svg);
+    background-size: 25px auto; //Set as per your requirement
+    background-repeat: no-repeat; // Changed
+    background-position: left;
+} 
