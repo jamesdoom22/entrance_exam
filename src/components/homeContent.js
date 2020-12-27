@@ -16,17 +16,19 @@ class homeContent extends React.Component{
             errors: {}
         };
         this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-      }
-      handleChange(event) {
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    handleChange(event) {
         let input = this.state.input;
         input[event.target.name] = event.target.value;
       
         this.setState({
           input
         });
-      }
-      handleSubmit(event) {
+    }
+
+    handleSubmit(event) {
         event.preventDefault();
       
         if(this.validate()){
@@ -39,8 +41,9 @@ class homeContent extends React.Component{
       
             alert('Login Submit.');
         }
-      }
-      validate(){
+    }
+
+    validate(){
         let input = this.state.input;
         let errors = {};
         let isValid = true;
@@ -76,25 +79,27 @@ class homeContent extends React.Component{
     
         return isValid;
     }
+
     formForgotPW(e){
         alert("Forgot password pressed!");
     }
     
-     formSigninGmail(e){
+    formSigninGmail(e){
         alert("Page will redirect to Google login form.");
     }
 
-     formSigninMEM(e){
+    formSigninMEM(e){
         alert("Page will redirect to MEM login form.");
     }
 
-     formBack(e){
+    formBack(e){
         alert("Back text pressed!");
     }
 
-     componentDidMount() {
+    componentDidMount() {
         window.scrollTo(0, 0);
     }
+    
     render(){
         return(
             <div className='homeContent'>
@@ -102,9 +107,9 @@ class homeContent extends React.Component{
                 <div className='leftContent'>
                     Learning Experience. Simplified.
                     <ul>
-                        <li><img src={checkLogo} alt='Check Logo'></img>Easily access stored data.</li>
-                        <li><img src={checkLogo} alt='Check Logo'></img>Customize your learning path.</li>
-                        <li><img src={checkLogo} alt='Check Logo'></img>Manage your courses for users and teams.</li>
+                        <li><img src={checkLogo} alt='Check Logo'></img><span>Easily access stored data.</span></li>
+                        <li><img src={checkLogo} alt='Check Logo'></img><span>Customize your learning path.</span></li>
+                        <li><img src={checkLogo} alt='Check Logo'></img><span>Manage your courses for users and teams.</span></li>
                     </ul>
                 </div>
                 <div className='rightContent'>
@@ -137,8 +142,7 @@ class homeContent extends React.Component{
                                         placeholder="Password"
                                         id="password"
                                         >
-
-                                        </input>
+                                    </input>
                                         <div className="text-danger">{this.state.errors.password}</div>
                                 </div>
                                 <div className='inputContainer'>

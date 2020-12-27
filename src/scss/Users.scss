@@ -1,0 +1,113 @@
+$defaultBlue:rgb(26, 101, 163);
+$defaultGray:rgb(48, 44, 44);
+.headerPos{
+    height: 5vh;
+    width: 100%;
+    background-color: $defaultBlue;
+    position: static;
+    align-items: center;
+}
+
+.leftHeader{
+    float: left;
+    height: 100%;
+    width: auto;
+}
+
+.leftHeader img{
+    height: 5vh;
+    padding-left: 1vw;
+}
+
+.rightHeader{
+    float: right;
+    height: 100%;
+    width: auto;
+}
+
+.rightHeader img{
+    height: 5vh;
+    float: right;
+    padding-right: 1vw;
+}
+
+.sideBar{
+    height: 100vh;
+    width: 15vw;
+    background-color: black;
+    float: left;
+}
+
+.sideHeader{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 2.3vh;
+    height: 4.5vh;
+    padding-top: 0.5vh;
+}
+
+.sideAccountInfo{
+    height: 8vh;
+    background-color: $defaultGray;
+    margin: auto;
+}
+
+.sideAccountInfo img{
+    height: 80%;
+    float: left;
+    padding-left: 0.5vw;
+    padding-top: 0.5vh;
+}
+
+.accountContainer{
+    height: 100%;
+}
+
+.accountName{
+    padding-top: 1vh;
+    padding-left: 0.5vw;
+    color: white;
+    font-size: 80%;
+}
+
+.accountRole{
+    padding-left: 0.5vw;
+    color: white;
+    font-size: 60%;
+}
+
+.sideButtons ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.sideButtons img{
+    height: 3.5vh;
+    vertical-align: middle;
+}
+
+.sideButtons span{
+    padding-left: 1vw;
+}
+
+.sideButtons li{
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 2vh;
+}
+
+.sideButtons li.active{
+    background-color: $defaultBlue;
+    color: white;
+}
+
+.sideButtons li:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
