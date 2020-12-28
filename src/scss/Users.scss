@@ -194,37 +194,15 @@ $defaultGray:rgb(48, 44, 44);
 
 .list{
     height: 5vh;
-
 }
 
 .alignLeft{
     text-align: left;
     padding-right: 0;
 }
-.alignContentLeft{
-    text-align: left;
-    height: 5vh;
-    width: 20%;
-    border: 1px solid red;
-    font-size: 2vh;
-}
-
-.alignContentCenter{
-    text-align: center;
-    height: auto;
-    padding: 1.25vh;
-    width: 10%;
-    border: 1px solid red;
-    float:left;
-    font-size: 2vh;
-}
 
 .smallIcon{
     height: 2.5vh;
-}
-.mediumIcon{
-    height: 5vh;
-    vertical-align: middle;
 }
 
 table {

@@ -6,7 +6,6 @@ import pwIcon from '../images/lock.svg'
 import gmIcon from '../images/google.svg'
 import memIcon from '../images/mem.png'
 import upIcon from '../images/iconfinder_arrow-circle-up_1608521.png'
-<link href='https://css.gg/arrow-up-o.css' rel='stylesheet'></link>
 
 class homeContent extends React.Component{
     constructor(props) {
@@ -115,7 +114,7 @@ class homeContent extends React.Component{
                 <div className='rightContent'>
                     <div className='homeForm'>
                         <div className='formHeader'>
-                        <p>Sign in to your <strong>MedSpecialized</strong><br></br>Learning Management Center</p>
+                            <p>Sign in to your <strong>MedSpecialized</strong><br></br>Learning Management Center</p>
                         </div>
                         <div className='formBody'>
                             <form onSubmit={this.handleSubmit}>
@@ -143,7 +142,7 @@ class homeContent extends React.Component{
                                         id="password"
                                         >
                                     </input>
-                                        <div className="text-danger">{this.state.errors.password}</div>
+                                    <div className="text-danger">{this.state.errors.password}</div>
                                 </div>
                                 <div className='inputContainer'>
                                     <button type='submit' value='Submit'>Sign In</button>

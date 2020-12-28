@@ -65,13 +65,13 @@ class Users extends React.Component{
                         <hr></hr>
                         <div>
                             <form className='searchInfo'>
-                            <select name="info" id="info">
-                                <option value="volvo">Name</option>
-                                <option value="saab">Email</option>
-                                <option value="mercedes">Status</option>
-                                <option value="audi">Role</option>
-                            </select>
-                            <input placeholder='Search...'></input>
+                                <select name="info" id="info">
+                                    <option value="volvo">Name</option>
+                                    <option value="saab">Email</option>
+                                    <option value="mercedes">Status</option>
+                                    <option value="audi">Role</option>
+                                </select>
+                                <input placeholder='Search...'></input>
                             </form>    
                         </div>
                         <div className='listOfUsers'>
@@ -209,17 +209,14 @@ class Users extends React.Component{
                                     </tbody>
                                 </table>
                                 <div className='arrowPage'>
-                                <button><img src={doubleBackIcon} alt='Icon'></img></button>
-                                <button><img src={backIcon} alt='Icon'></img></button>
-                                <button><strong>1</strong></button>
-                                <button><img src={forwardIcon} alt='Icon'></img></button>
-                                <button><img src={doubleForwardIcon} alt='Icon'></img></button>
-                                <br></br><label>Showing 13 out of 13</label>
+                                    <button><img src={doubleBackIcon} alt='Icon'></img></button>
+                                    <button><img src={backIcon} alt='Icon'></img></button>
+                                    <button><strong>1</strong></button>
+                                    <button><img src={forwardIcon} alt='Icon'></img></button>
+                                    <button><img src={doubleForwardIcon} alt='Icon'></img></button>
+                                    <br></br><label>Showing 13 out of 13</label>
+                                </div>
                             </div>
-                            </div>
-                            <div>
-                            
-                        </div>
                         </div>
                     </div>
                 </div>
@@ -236,24 +233,24 @@ class Box extends React.Component{
                 <div className='sideAccountInfo'>
                     <img src={defaultUser} alt='User Icon'></img>
                     <div className='accountContainer'>
-                    <label className='accountName'>Admin Fullname</label>
-                    <br></br>
-                    <label className='accountRole'>Admin Role</label>
+                        <label className='accountName'>Admin Fullname</label>
+                        <br></br>
+                        <label className='accountRole'>Admin Role</label>
                     </div>
                 </div>
                 <div className='sideButtons'>
-                <ul>
-                    <li><img src={dashIcon} alt="Icon"></img><span>Dashboard</span></li>
-                    <li><img src={careerIcon} alt="Icon"></img><span>Career Path</span></li>
-                    <li><img src={courseIcon} alt="Icon"></img><span>Learning Course</span></li>
-                    <li><img src={assetIcon} alt="Icon"></img><span>Assessments</span></li>
-                    <li><img src={moduleIcon} alt="Icon"></img><span>Module Library</span></li>
-                    <li><img src={teamIcon} alt="Icon"></img><span>Teams</span></li>
-                    <li className="active"><img src={userIcon} alt="Icon"></img><span>Users</span></li>
-                    <li><img src={reportIcon} alt="Icon"></img><span>Reports</span></li>
-                    <li><img src={profileIcon} alt="Icon"></img><span>Profile</span></li>
-                    <li><img src={feedbackIcon} alt="Icon"></img><span>Help and Feedback</span></li>
-                </ul>
+                    <ul>
+                        <li><img src={dashIcon} alt="Icon"></img><span>Dashboard</span></li>
+                        <li><img src={careerIcon} alt="Icon"></img><span>Career Path</span></li>
+                        <li><img src={courseIcon} alt="Icon"></img><span>Learning Course</span></li>
+                        <li><img src={assetIcon} alt="Icon"></img><span>Assessments</span></li>
+                        <li><img src={moduleIcon} alt="Icon"></img><span>Module Library</span></li>
+                        <li><img src={teamIcon} alt="Icon"></img><span>Teams</span></li>
+                        <li className="active"><img src={userIcon} alt="Icon"></img><span>Users</span></li>
+                        <li><img src={reportIcon} alt="Icon"></img><span>Reports</span></li>
+                        <li><img src={profileIcon} alt="Icon"></img><span>Profile</span></li>
+                        <li><img src={feedbackIcon} alt="Icon"></img><span>Help and Feedback</span></li>
+                    </ul>
                 </div>
             </div>
         )
