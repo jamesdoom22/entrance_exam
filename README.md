@@ -21,3 +21,5 @@ localhost:3000/
 
 Users Page
 localhost:3000/users
+
+Screenshot attach in the directory.
