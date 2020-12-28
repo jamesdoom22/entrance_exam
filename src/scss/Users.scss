@@ -1,7 +1,8 @@
-$defaultBlue:rgb(26, 101, 163);
+$defaultBlue:rgb(35, 132, 211);
 $defaultGray:rgb(48, 44, 44);
+
 .headerPos{
-    height: 5vh;
+    height: 4vh;
     width: 100%;
     background-color: $defaultBlue;
     position: static;
@@ -16,26 +17,30 @@ $defaultGray:rgb(48, 44, 44);
 
 .leftHeader img{
     height: 5vh;
-    padding-left: 1vw;
+    padding-left: 0.25vw;
+    position: fixed;
 }
 
 .rightHeader{
     float: right;
     height: 100%;
     width: auto;
+    color: white;
 }
 
 .rightHeader img{
-    height: 5vh;
-    float: right;
-    padding-right: 1vw;
+    height: 3vh;
+    padding-top: 0.5vh;
+    padding-right: 0.5vw;
 }
 
 .sideBar{
-    height: 100vh;
+    height: 100%;
     width: 15vw;
     background-color: black;
     float: left;
+    z-index: 1;
+    position: fixed;
 }
 
 .sideHeader{
@@ -110,4 +115,163 @@ $defaultGray:rgb(48, 44, 44);
 .sideButtons li:hover:not(.active){
     background-color: #555;
     color: white;
+}
+
+.userHeader{
+    height: 5vh;
+    vertical-align: middle;
+}
+
+.userBody{
+    margin: auto;
+    float: right;
+    width: 85vw;
+}
+.userBody hr{
+    width: 100%;
+    position: relative;
+}
+
+.userLeftHeader{
+    float: left;
+}
+
+.userRightHeader{
+    float: right;
+}
+
+.userRightHeader button{
+    background-color: rgb(7, 192, 47);
+    color: white;
+    border-radius: 5px;
+}
+
+.userRightHeader img{
+    height: 3vh;
+    vertical-align: middle;
+}
+
+.userRightHeader span{
+    padding-left: 0.5vw;
+}
+
+.bodyContainer{
+    padding: 3vh 5vh 0vh 5vh;
+}
+
+.searchInfo select{
+    height: 4vh;
+    width: 8vw;
+}
+
+.searchInfo input{
+    height: 3vh;
+    width: 16vw;
+    padding-left: 0.5vw;
+    margin-left: 1vw;
+}
+
+.listOfUsers{
+    padding-top: 3vh;
+    width: 100%;
+}
+
+.listHeader{
+    background-color: $defaultBlue;
+    color: white;
+    padding-left: 1vw;
+    font-size: 2vh;
+}
+
+.alignLeft{
+    padding-right: 15%;
+}
+
+.alignCenter{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.list{
+    height: 5vh;
+
+}
+
+.alignLeft{
+    text-align: left;
+    padding-right: 0;
+}
+.alignContentLeft{
+    text-align: left;
+    height: 5vh;
+    width: 20%;
+    border: 1px solid red;
+    font-size: 2vh;
+}
+
+.alignContentCenter{
+    text-align: center;
+    height: auto;
+    padding: 1.25vh;
+    width: 10%;
+    border: 1px solid red;
+    float:left;
+    font-size: 2vh;
+}
+
+.smallIcon{
+    height: 2.5vh;
+}
+.mediumIcon{
+    height: 5vh;
+    vertical-align: middle;
+}
+
+table {
+    font-size: 2vh;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+table th{
+    padding: 8px;
+    background-color: $defaultBlue;
+    color: white;
+    font-weight: none;
+}
+
+table tr{
+    height: 5vh;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+table img{
+    height:5vh;
+    vertical-align: middle;
+}
+
+.arrowPage{
+    width: 100%;
+    height: 10vh;
+    float: bottom;
+    padding-top: 5vh;
+}
+
+.arrowPage button{
+    height: 2.5vh;
+    width: 2vw;
+}
+
+.arrowPage img{
+    width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+.arrowPage label{
+    font-size: 2vh;
 }
