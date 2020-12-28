@@ -2,6 +2,10 @@
 
 An application built with React, JavaScript, and Sass(No framework used).
 
+Installation:
+
+npm install
+
 To Start Server:
 
 npm start
